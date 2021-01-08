@@ -5,7 +5,8 @@ nav {
 .wrapper {
     object-fit: cover;
     overflow: hidden;
-    background: url(https://img.okeinfo.net/content/2016/10/31/196/1529358/selain-gaji-tinggi-ini-alasan-orang-ingin-bekerja-di-perusahaan-besar-DTMLV7H9s6.jpg);
+    border-radius: 10px;
+    background: url(https://bpsdm.pu.go.id/view/web/uploads/berita/2020/10/20201013142450_couple-professionals-analyzing-graphs74855-4393.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
@@ -27,6 +28,12 @@ nav {
     font-style: normal;
 }
 
+.p3 {
+    font-size: 13px;
+    font-style: normal;
+
+}
+
 .wrapper:before {
     content: '';
     position: absolute;
@@ -36,13 +43,6 @@ nav {
     left: 0;
     background: linear-gradient(90deg, rgba(255,255,255,1), rgba(255,255,255,.75), rgba(255,255,255,0));
     z-index: 1;
-}
-
-.imgMod {
-    height: 300px;
-    object-fit: cover;
-    object-position: center;
-    overflow: hidden;
 }
 
 .img {

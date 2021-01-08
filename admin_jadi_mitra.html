@@ -32,7 +32,7 @@
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img
+        <a class="navbar-brand" href="halaman_admin.html"><img
             src="https://nurulfikri.ac.id/wp-content/uploads/2019/08/sttnf-panjang.png" width="200" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,26 +41,22 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="halaman_admin.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="lowongan.html">Lowongan Baru</a>
+              <a class="nav-link" href="admin_lowongan.html">Lowongan Baru</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="isi_loker.html">Isi Loker</a>
+              <a class="nav-link" href="admin_isi_loker.html">Isi Loker</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="daftar_mitra.html">Daftar Mitra</a>
+              <a class="nav-link active" href="admin_daftar_mitra.html">Daftar Mitra</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="berita.html">Berita</a>
+              <a class="nav-link" href="admin_berita.html">Berita</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-          <a href="login.html" class="nav-link">Login</a>
+          <a href="login.html" class="nav-link">Logout</a>
         </div>
       </div>
     </nav>
@@ -68,55 +64,78 @@
     <div class="row py-3">
       <div class="col-sm-8">
         <div class="card shadow-sm" style="border-radius: 10px;">
-          <div class="d-flex justify-content-between px-3 mt-2">
-            <a href="jadi_mitra.html">Daftar Menjadi Mitra</a>
+          <div class="d-flex justify-content-end mt-2">
             <ol class="breadcrumb" style="--bs-breadcrumb-divider: '>'; margin-right: 15px;">
-              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Daftar Mitra</li>
+              <li class="breadcrumb-item"><a href="halaman_admin.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Daftar Mitra</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Form Menjadi Mitra</li>
             </ol>
           </div>
           <div class="card-body">
-            <h4 class="mb-3" style="text-align: center;"> Mitra Perusahaan Kami</h4>
-            <p>Kami menyambut baik berbagai inovasi kemitraan dengan perusahaan-perusahaan di Indonesia yang memiliki
-              visi yang sama dengan kami. Karena itu SILOKERNF bekerja sama dengan beberapa perusahaan maupun lembaga
-              pendidikan.</p>
-            <div class="row">
-              <div class="mb-2 mt-3">
-                <img src="https://www.nurulfikri.com/wp-content/uploads/2018/09/nf-computer-web-logo.png" width="190"
-                  height="52" align="left" class="img mt-4">
-                <br />
-                <h5> <strong> NFComputer </strong> </h5>
-                <p class="p3"> PT Nurul Fikri Cipta Inovasi atau biasa dikenal dengan NFComputer bagian dari grup Nurul
-                  Fikri yang telah dipercaya oleh masyarakat Indonesia di bidang pendidikan dan peningkatan sumber daya
-                  manusia selama lebih dari 24 tahun.
-                </p>
+            <h5 class="card-title">Form Menjadi Mitra</h5>
+            <form>
+              <div class="form-group row mb-2">
+                <label for="inputPassword" class="col-sm-4 col-form-label">Nama Perusahaan/Organisasi</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputPassword" placeholder="Company/Organization">
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="mb-2 mt-2">
-                <img
-                  src="https://i1.wp.com/smkwidyadharma.sch.id/wp-content/uploads/2017/06/Mikrotik-Academy-Logo.png?ssl=1"
-                  width="190" height="70" align="left" class="img mt-4">
-                <br />
-                <h5> <strong> Mikrotik Academy</strong> </h5>
-                <p class="p3"> MikroTik Academy adalah program yang dikhususkan kepada institusi pendidikan seperti
-                  Universitas, Institut, Akademi, Sekolah Menengah Kejuruan, dan institusi pendidikan lainnya yang
-                  bersifat resmi.
-                </p>
+
+              <div class="form-group row mb-2">
+                <label for="inputPassword" class="col-sm-4 col-form-label">Bidang Usaha</label>
+                <div class="col-sm-8">
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Startup</option>
+                    <option>Fintech</option>
+                    <option>Cloud Service</option>
+                  </select>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="mb-2 mt-3">
-                <img src="https://www.heruirawan.com/wp-content/uploads/2015/11/linux_foundation.jpg" width="190"
-                  height="90" align="left" class="img mt-4">
-                <br />
-                <h5> <strong> Linux Fondation</strong> </h5>
-                <p class="p3"> Linux Foundation (LF) adalah konsorsium teknologi nirlaba yang ditugaskan untuk mendorong
-                  pertumbuhan Linux. Linux Foundation mensponsori karya-karya pencipta Linux Linus Torvalds dan didukung
-                  oleh perusahaan-perusahaan sumber terbuka dan terkemuka.
-                </p>
+
+              <div class="form-group row mb-2">
+                <label for="inputPassword" class="col-sm-4 col-form-label">Alamat Kantor</label>
+                <div class="col-sm-8">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
               </div>
-            </div>
+
+              <div class="form-group row mb-2">
+                <label for="inputPassword" class="col-sm-4 col-form-label">Kontak Person</label>
+                <div class="col-sm-8">
+                  <input type="number" class="form-control" id="inputPassword" placeholder="Contact">
+                </div>
+              </div>
+
+              <div class="form-group row mb-2">
+                <label for="inputPassword" class="col-sm-4 col-form-label">No HP/Telpon</label>
+                <div class="col-sm-8">
+                  <input type="email" class="form-control" id="inputPassword" placeholder="Phone number">
+                </div>
+              </div>
+
+              <div class="form-group row mb-2">
+                <label for="inputPassword" class="col-sm-4 col-form-label">Email</label>
+                <div class="col-sm-8">
+                  <input type="email" class="form-control" id="inputPassword" placeholder="Email">
+                </div>
+              </div>
+
+              <div class="form-group row mb-2">
+                <label for="inputPassword" class="col-sm-4 col-form-label">Alamat Web</label>
+                <div class="col-sm-8">
+                  <input type="email" class="form-control" id="inputPassword" placeholder="https://">
+                </div>
+              </div>
+
+              <div class="form-group row mb-2">
+                <div class="col-sm-2">
+                  <button class="btn btn-success">Submit</button>
+                </div>
+                <div class="col-sm-2">
+                  <button class="btn btn-danger">Reset</button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -134,13 +153,13 @@
               target="_bank"> Berita 3 </a> </li>
           <li class="list-group-item">
             <a href="https://www.cnnindonesia.com/ekonomi/20200714133407-92-524466/ptpn-iii-holding-bumn-perkebunan-buka-lowongan-kerja"
-              target="_bank"> Berita 4 </a> </li>
+            target="_bank"> Berita 4 </a> </li>
           <li class="list-group-item">
             <a href="https://www.cnnindonesia.com/gaya-hidup/20191230164811-282-461089/miliarder-buka-lowongan-fotografer-pribadi-bergaji-rp532-juta"
-              target="_bank"> Berita 5 </a> </li>
+            target="_bank"> Berita 5 </a> </li>
           <li class="list-group-item">
             <a href="https://www.cnnindonesia.com/gaya-hidup/20200702112635-284-519969/10-pekerjaan-yang-laku-di-masa-pandemi-corona"
-              target="_bank"> Berita 6 </a> </li>
+            target="_bank"> Berita 6 </a> </li>
         </ul>
       </div>
     </div>
@@ -149,7 +168,7 @@
   <footer class="bg-light footer text-center container-fluid text-lg-start">
     <div class="cp">
       © 2021 by Sistem Lowongan Kerja Nurul Fikri. All Rights Reserved.
-    </div>
+    </div> 
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
