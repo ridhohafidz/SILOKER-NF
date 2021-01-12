@@ -29,7 +29,7 @@ nav {
 }
 
 .p3 {
-    font-size: 13px;
+    font-size: 11px;
     font-style: normal;
 
 }
@@ -57,9 +57,13 @@ nav {
     -moz-border-radius: 200px;    
 }
 
-/* .checked {
+.pagination {
+    float: right;
+}
+
+.checked {
     color: orange;
-  } */
+  }
 
 .panel-footer {
     text-align: right;

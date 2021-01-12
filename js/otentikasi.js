@@ -1,13 +1,8 @@
 function validate() {
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
-    if (email == "admin@siloker.com" && password == "12345") {
+    if (email == "admin" && password == "12345") {
         window.location.href = "halaman_admin.html";
-        console.log("Login Sukses");
-    } 
-
-    else if (email == "user@siloker.com" && password == "12345") {
-        window.location.href = "index.html";
         console.log("Login Sukses");
     } 
     else {
