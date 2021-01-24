@@ -1,6 +1,6 @@
 # Sistem-Lowongan-Kerja-NF
-Kelompok 4 - Teknik Informatika 07
-Nama Anggota Kelompok :
+Nama Anggota Kelompok 4 - TI 07
+
 * Muhammad Ridho Hafidz - 0110219051
 * Putri Ramadhan - 0110220030
 * Sahrul Romadhon - 0110220154
